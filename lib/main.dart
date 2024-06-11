@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialRoute: AppPages.INITIAL,
-      home: Center(child: Container(child: Text("Project Started"),))
+      getPages: AppPages.routes,
+      //home: Center(child: Container(child: Text("Project Started"),))
     );
   }
 }
