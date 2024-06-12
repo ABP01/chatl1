@@ -27,7 +27,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.chatl1"
-    compileSdk flutter.compileSdkVersion
+    // compileSdk flutter.compileSdkVersion
+    compileSdkVersion 33
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -48,11 +49,11 @@ android {
         applicationId "com.example.chatl1"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        multiDexEnable true
+        // multiDexEnable true
     }
 
     buildTypes {

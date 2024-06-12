@@ -2,8 +2,8 @@ import 'package:chatl1/common/routes/names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-import '../../pages/welcome/bindings.dart';
-import '../../pages/welcome/view.dart';
+import '../../pages/welcome/index.dart';
+
 
 class AppPages {
   static const INITIAL = AppRoutes.INITIAL;

@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.5
+  flutter_screenutil: ^5.9.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,9 +62,27 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Avenir
+      fonts:
+      - asset: assets/fonts/Avenir-Book.ttf
+        weight: 400
+    - family: Montserrat
+      fonts:
+      - asset: assets/fonts/Montserrat-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Montserrat-SemiBold.ttf
+        weight: 600
+    - family: Iconfont
+      fonts:
+      - asset: assets/fonts/iconfont.ttf
+    
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
